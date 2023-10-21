@@ -1,0 +1,16 @@
+preserve_dotfiles_in_output = true
+base_url = "https://covenants.info"
+title = "Bitcoin Covenants Wiki"
+theme = "adidoks"
+
+compile_sass = true
+build_search_index = true
+theme = "adidoks"
+
+[markdown]
+highlight_code = true
+highlight_theme = "kronuz"
+default_language = "en"
+
+[extra]
+
