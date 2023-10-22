@@ -11,7 +11,8 @@
 {% endblock header %}
 
 {% block content %}
-{% set page = get_page(path = "overview/introduction.md") %}
+{% set landing = "overview/introduction" %}
+{% set page = get_page(path = landing ~ ".md") %}
 <div class="wrap container" role="document">
   <div class="content">
     <div class="row flex-xl-nowrap">
@@ -20,7 +21,7 @@
         <h1>{{ page.title }}</h1>
         {{ page.content | safe }}
         {% if config.extra.edit_page %}
-          {{ macros_edit_page::docs_edit_page(current_path=current_path) }}
+          {{ macros_edit_page::docs_edit_page(current_path = "/" ~ landing) }}
         {% endif %}
       </main>
     </div>
