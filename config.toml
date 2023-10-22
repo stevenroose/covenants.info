@@ -70,7 +70,7 @@ weight = 10
 
 
 [extra.footer]
-info = 'Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a>'
+info = 'All content is part of the <a href="https://github.com/stevenroose/covenants.info/blob/master/LICENSE">public domain</a>. Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a>.'
 
 #[[extra.footer.nav]]
 #name = "Privacy"
