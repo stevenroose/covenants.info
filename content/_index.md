@@ -13,9 +13,9 @@ name = ""
 section = ""
 url = ""
 
-# [[extra.list]]
-# title = ""
-# content = ''
+#[[extra.list]]
+#title = ""
+#content = ''
 
 +++
 

@@ -16,15 +16,13 @@ top = false
 
 
 
-Coming soon a comprehensive summary table
 
-
-
-use case           | ctv  | vault | txhash | catt | matt
---|--|--|--|--|--
-Lightning Symmerty | no   | no    | yes    | yes  | yes
-Vaults             | no   | yes   | yes    | yes  | yes
-Ark                | half | ~ctv  | yes    | yes  | yes
-Fraud Proofs       | no   | no    | no     | no   | yes
-Congestion Control | yes  | ~ctv  | yes    | yes  | yes
+use case           | ctv  | vault | txhash | tluv | catt | matt
+-|-|-|-|-|-|-
+Lightning Symmerty | no   | no    | yes    | ?    | yes  | yes
+Vaults             | no   | yes   | yes    | yes  | yes  | yes
+Payment Pools      | no   | ~ctv  | ?      | yes  | yes  | yes
+Ark                | half | ~ctv  | yes    | no   | yes  | yes
+Fraud Proofs       | no   | no    | no     | no   | no   | yes
+Congestion Control | yes  | ~ctv  | yes    | no   | yes  | yes
 

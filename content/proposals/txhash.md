@@ -4,7 +4,7 @@ description = "Overview of OP_TXHASH and OP_CHECKTXHASHVERIFY."
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
 draft = false
-weight = 21
+weight = 23
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -29,7 +29,7 @@ combination of `OP_TXHASH` with `OP_CHECKSIGFROMSTACK`, check out the [CATT](/do
 proposal.
 
 The `OP_TXHASH` and `OP_CHECKTXHASHVERIFY` opcodes themselves can be considered an upgrade or
-generalization of [`OP_CHECKTEMPLATEVERIFY`](/docs/proposals/ctv) and thus a way of enabling
+generalization of `OP_CHECKTEMPLATEVERIFY` and thus a way of enabling
 advances [transaction templating](/docs/use-cases/tx-templating).
 
 Whereas CTV allows a user to commit to an entirely pre-specified spending transaction of a certain

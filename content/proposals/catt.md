@@ -4,7 +4,7 @@ description = "Overview of CATT Bitcoin covenant proposal: Covenant All The Thin
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
 draft = false
-weight = 22
+weight = 30
 sort_by = "weight"
 template = "docs/page.html"
 

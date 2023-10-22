@@ -19,6 +19,7 @@ top = false
 
 - [homepage](https://merkle.fun)
 
+
 ## Introduction
 
 MATT is a proposal to enable a fraud-proof system for smart contracts on
@@ -52,4 +53,15 @@ example](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-April/0215
 vaults could be implemented using MATT, as well as a [draft
 implementation](https://github.com/bitcoin-inquisition/bitcoin/compare/24.0...bigspider:bitcoin-inquisition:matt-vault)
 for Bitcoin Inquisition.
+
+### Joinpools
+
+Johan Halseth [wrote to the bitcoin-dev mailing
+list](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021719.html) how MATT,
+together with `OP_CAT` can be used to implement [Payment Pools](/docs/use-cases/payment-pools).
+
+### CTV
+
+Johan Halseth wrote how [CTV](/docs/proposals/ctv) can be [implemented using
+MATT](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-June/021730.html).
 
