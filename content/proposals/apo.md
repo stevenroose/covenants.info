@@ -26,7 +26,7 @@ top = false
 (sighash) where the identifier for the UTXO being spent is not signed, allowing the signature to be
 used with any UTXO that’s protected by a similar script (i.e. uses the same public keys).
 
-The original proposal for `SIGHASH_NOINPUT`, was included in the [Eltoo](/docs/use-cases/eltoo)
+The original proposal for `SIGHASH_NOINPUT`, was included in the [Eltoo](/use-cases/eltoo)
 paper.
 
 

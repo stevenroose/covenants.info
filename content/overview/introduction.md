@@ -19,7 +19,7 @@ This collaborative web page attempts to be a comprehensive overview of different
 [**covenant**](https://bitcoinops.org/en/topics/covenants/) use cases and consensus change proposals.
 
 Use the side-bar to explore the different use cases and proposals or check out the
-[summary table](/docs/overview/summary).
+[summary table](/overview/summary).
 
 
 ### Contributing

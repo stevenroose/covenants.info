@@ -19,11 +19,11 @@ top = false
 
 This proposal proposes two new tapscript opcodes that add consensus support for a specialized
 covenant: `OP_VAULT` and `OP_VAULT_RECOVER`. These opcodes, in conjunction with
-`OP_CHECKTEMPLATEVERIFY` ([CTV](/docs/proposals/ctv)) allow users to enforce a delay period before
+`OP_CHECKTEMPLATEVERIFY` ([CTV](/proposals/ctv)) allow users to enforce a delay period before
 designated coins may be spent to an arbitrary destination, with the exception of a prespecified
 "recovery" path. At any time prior to final withdrawal, the coins can be spent to the recovery path.
 
-This proposal is explicitly aimed at enabling the [vaults](/docs/use-cases/vaults) use case.
+This proposal is explicitly aimed at enabling the [vaults](/use-cases/vaults) use case.
 
 
 ## Specification
@@ -38,5 +38,5 @@ Bitcoin Inquisition.
 ## Use Cases
 
 For use cases that are enabled by CTV, we refer to the more general use case page of [transaction
-templating](/docs/use-cases/tx-templating), or to the [summary table](/docs/overview/summary).
+templating](/use-cases/tx-templating), or to the [summary table](/overview/summary).
 

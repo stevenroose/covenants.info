@@ -42,7 +42,7 @@ compromised).
 ## Requirements
 
 Vaults generally need two things:
-- a way to enforce certain propertiss on the input and output values of a transaction
+- a way to enforce certain properties on the input and output values of a transaction
 - a way to enforce a delay period after which a certain script can be activated.
 
 These two requirements are surprisingly non-trivial to enforce and hence vaults have been an
@@ -51,6 +51,6 @@ extensive topic of discussion within the covenants debate.
 
 ## OP_VAULT
 
-Vaults are such a popular use case that [a set of opcodes are proposed](/docs/proposals/op_vault)
+Vaults are such a popular use case that [a set of opcodes are proposed](/proposals/op_vault)
 explicitly to enable vaults.
 

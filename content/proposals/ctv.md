@@ -54,4 +54,4 @@ This proposal has been specified in
 ## Use Cases
 
 For use cases that are enabled by CTV, we refer to the more general use case page of [transaction
-templating](/docs/use-cases/tx-templating), or to the [summary table](/docs/overview/summary).
+templating](/use-cases/tx-templating), or to the [summary table](/overview/summary).

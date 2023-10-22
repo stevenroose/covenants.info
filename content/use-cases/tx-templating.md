@@ -35,8 +35,8 @@ off-chain protocols.
 
 The following proposals focus on enabling transaction templating:
 
-- [CTV](/docs/proposals/ctv)
-- [TXHASH](/docs/proposals/txhash)
+- [CTV](/proposals/ctv)
+- [TXHASH](/proposals/txhash)
 
 Other proposals can be used to achieve some form of improved transaction templating, but are not
 primarily proposed to enable it.

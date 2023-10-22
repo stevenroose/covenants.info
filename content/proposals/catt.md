@@ -24,7 +24,7 @@ that can be used by developers to build use cases instead of focussing on use ca
 
 The different parts of CATT are the following:
 
-- `OP_TXHASH` (and `OP_CHECKTXHASHVERIFY`), as [described here](/docs/proposals/txhash)
+- `OP_TXHASH` (and `OP_CHECKTXHASHVERIFY`), as [described here](/proposals/txhash)
 - `OP_CAT`, an opcode to concatenate stack items that formerly existed on Bitcoin but hash been
   [disabled](https://github.com/bitcoin/bitcoin/commit/4bd188c4383d6e614e18f79dc337fbabe8464c82#diff-27496895958ca30c47bbb873299a2ad7a7ea1003a9faa96b317250e3b7aa1fefR94)
   - or alternatively an opcode to calculate the SHA-256 hash of concatenated data, called `OP_SHA256CAT` [by Salvatore](https://github.com/ariard/bitcoin-contracting-primitives-wg/issues/25#issuecomment-1377942333) or `OP_MULTISHA256` [by Rusty](https://twitter.com/rusty_twit/status/1715607011776409858)
@@ -58,8 +58,8 @@ The individual pieces of this transaction are specified in different BIPs:
 ## Use Cases
 
 For use cases that are enabled this proposal, we refer to the more general use case page of
-[transaction templating](/docs/use-cases/tx-templating), or to the [summary
-table](/docs/overview/summary). For usage of `OP_TXHASH` together with some other opcodes, we refer
-to the [CATT](/docs/proposals/catt) proposal page.
+[transaction templating](/use-cases/tx-templating), or to the [summary
+table](/overview/summary). For usage of `OP_TXHASH` together with some other opcodes, we refer
+to the [CATT](/proposals/catt) proposal page.
 
 

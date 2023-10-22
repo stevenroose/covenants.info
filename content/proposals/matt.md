@@ -58,10 +58,10 @@ for Bitcoin Inquisition.
 
 Johan Halseth [wrote to the bitcoin-dev mailing
 list](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021719.html) how MATT,
-together with `OP_CAT` can be used to implement [Payment Pools](/docs/use-cases/payment-pools).
+together with `OP_CAT` can be used to implement [Payment Pools](/use-cases/payment-pools).
 
 ### CTV
 
-Johan Halseth wrote how [CTV](/docs/proposals/ctv) can be [implemented using
+Johan Halseth wrote how [CTV](/proposals/ctv) can be [implemented using
 MATT](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-June/021730.html).
 

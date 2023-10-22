@@ -31,8 +31,8 @@ that their transaction can at all times be confirmed if they are willing to pay 
 
 ## Proposals
 
-While Congestion Control was published explicitly as a use case for [CTV](/docs/proposals/ctv), it
-is a form of [transaction templating](/docs/use-cases/tx-templating) and hence can be achieved with
+While Congestion Control was published explicitly as a use case for [CTV](/proposals/ctv), it
+is a form of [transaction templating](/use-cases/tx-templating) and hence can be achieved with
 any other proposal that enables this.
 
 

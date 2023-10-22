@@ -41,4 +41,4 @@ as long as they can store a few kB, they should be able to use eltoo-based LN.
 
 The original Eltoo paper proposed a consensus change called `SIGHASH_NOINPUT` to be added to Bitcoin
 to enable support for the construction. That proposed opcode was eventually renamed to
-`SIGHASH_ANYPREVOUT` and more details on this proposal can be [found here](/docs/proposals/apo).
+`SIGHASH_ANYPREVOUT` and more details on this proposal can be [found here](/proposals/apo).
