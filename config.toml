@@ -46,7 +46,7 @@ repo_branch = "master"
 ## Math settings
 # options: true, false. Enable math support globally,
 # default: false. You can always enable math on a per page.
-math = true
+math = false
 library = "katex"  # options: "katex", "mathjax". default is "katex".
 
 
