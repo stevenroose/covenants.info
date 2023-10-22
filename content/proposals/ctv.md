@@ -1,8 +1,6 @@
 +++
 title = "CTV"
 description = "Overview of OP_CHECKTEMPLATEVERIFY"
-date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
 draft = false
 weight = 15
 sort_by = "weight"

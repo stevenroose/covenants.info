@@ -1,8 +1,6 @@
 +++
 title = "Payment Pools"
 description = "Overview of the payment pools / coinpools / joinpools use case for Bitcoin covenants."
-date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
 draft = false
 weight = 24
 sort_by = "weight"

@@ -1,8 +1,6 @@
 +++
 title = "APO"
 description = "Overview of the Merklize All The Things proposal from Salvatore Ingala"
-date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
 draft = false
 weight = 10
 sort_by = "weight"

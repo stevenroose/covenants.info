@@ -1,8 +1,6 @@
 +++
 title = "Direct Introspection"
 description = "Overview of direct introspection opcodes as Bitcoin covenants proposal."
-date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
 draft = false
 weight = 28
 sort_by = "weight"

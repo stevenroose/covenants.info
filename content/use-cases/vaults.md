@@ -1,8 +1,6 @@
 +++
 title = "Vaults"
 description = "Bitcoin cold-storage vaults as a Bitcoin Covenant use case."
-date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
 draft = false
 weight = 21
 sort_by = "weight"

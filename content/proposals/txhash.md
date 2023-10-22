@@ -1,8 +1,6 @@
 +++
 title = "TXHASH"
 description = "Overview of OP_TXHASH and OP_CHECKTXHASHVERIFY."
-date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
 draft = false
 weight = 23
 sort_by = "weight"

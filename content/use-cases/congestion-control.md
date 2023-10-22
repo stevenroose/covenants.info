@@ -1,8 +1,6 @@
 +++
 title = "Congestion Control"
 description = "Overview of the congestion control use case for Bitcoin Covenants."
-date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
 draft = false
 weight = 60
 sort_by = "weight"
