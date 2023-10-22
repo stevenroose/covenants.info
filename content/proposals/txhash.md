@@ -48,7 +48,7 @@ GitHub](https://github.com/bitcoin/bips/pull/1500).
 ### Potential Extensions
 
 The specification for this proposal defines a construction called a `TxFieldSelector` that can
-directly be adopted to implement other constructions like [`OP_TX`](/docs/proposal/catt), an opcode
+directly be adopted to implement other constructions like [`OP_TX`](/docs/proposals/catt), an opcode
 for generalized introspection, or a new Schnorr sighash flag.
 
 

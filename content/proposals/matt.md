@@ -44,3 +44,12 @@ Currently, they are the following:
 A very wide range of use cases can be enabled by MATT, though it's ability to execute fraud proofs
 for arbitrary programs. When it comes to covenants, however, it seems that transaction introspection
 is achieved primarily by using the individual opcodes enabled by the proposal.
+
+### Vaults
+
+Salvatore has written an [in-depth
+example](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-April/021588.html) of how
+vaults could be implemented using MATT, as well as a [draft
+implementation](https://github.com/bitcoin-inquisition/bitcoin/compare/24.0...bigspider:bitcoin-inquisition:matt-vault)
+for Bitcoin Inquisition.
+
