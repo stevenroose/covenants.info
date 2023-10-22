@@ -16,13 +16,12 @@ top = false
 
 
 
-
-use case           | ctv  | vault | txhash | tluv | catt | matt
--|-|-|-|-|-|-
-Lightning Symmerty | no   | no    | yes    | ?    | yes  | yes
-Vaults             | no   | yes   | yes    | yes  | yes  | yes
-Payment Pools      | no   | ~ctv  | ?      | yes  | yes  | yes
-Ark                | half | ~ctv  | yes    | no   | yes  | yes
-Fraud Proofs       | no   | no    | no     | no   | no   | yes
-Congestion Control | yes  | ~ctv  | yes    | no   | yes  | yes
+use case           | apo   |ctv  | vault | txhash | tluv | catt | matt
+-|-|-|-|-|-|-|-
+Lightning Symmerty | yes   | no   | no    | yes    | ?    | yes  | yes
+Vaults             | no    | no   | yes   | yes    | yes  | yes  | yes
+Payment Pools      | no    | no   | ~ctv  | ?      | yes  | yes  | yes
+Ark                | half  | half | ~ctv  | yes    | no   | yes  | yes
+Fraud Proofs       | no    | no   | no    | no     | no   | no   | yes
+Congestion Control | no    | yes  | ~ctv  | yes    | no   | yes  | yes
 
