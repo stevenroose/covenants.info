@@ -2,7 +2,6 @@
 title = "Congestion Control"
 description = "Overview of the congestion control use case for Bitcoin Covenants."
 weight = 60
-sort_by = "weight"
 template = "docs/page.html"
 
 [extra]

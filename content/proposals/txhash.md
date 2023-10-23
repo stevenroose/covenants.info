@@ -2,7 +2,6 @@
 title = "TXHASH"
 description = "Overview of OP_TXHASH and OP_CHECKTXHASHVERIFY."
 weight = 23
-sort_by = "weight"
 template = "docs/page.html"
 
 [extra]

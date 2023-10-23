@@ -2,7 +2,6 @@
 title = "Direct Introspection"
 description = "Overview of direct introspection opcodes as Bitcoin covenants proposal."
 weight = 28
-sort_by = "weight"
 template = "docs/page.html"
 
 [extra]

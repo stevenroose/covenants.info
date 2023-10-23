@@ -2,7 +2,6 @@
 title = "CTV"
 description = "Overview of OP_CHECKTEMPLATEVERIFY"
 weight = 15
-sort_by = "weight"
 template = "docs/page.html"
 
 [extra]

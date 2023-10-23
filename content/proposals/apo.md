@@ -2,7 +2,6 @@
 title = "APO"
 description = "Overview of the Merklize All The Things proposal from Salvatore Ingala"
 weight = 10
-sort_by = "weight"
 template = "docs/page.html"
 
 [extra]

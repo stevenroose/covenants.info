@@ -2,7 +2,6 @@
 title = "MATT"
 description = "Overview of the MATT proposal from Salvatore Ingala"
 weight = 40
-sort_by = "weight"
 template = "docs/page.html"
 
 [extra]

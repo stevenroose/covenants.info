@@ -2,7 +2,6 @@
 title = "Ark"
 description = "The Ark layer 2 protocol as a Bitcoin Covenant use case."
 weight = 30
-sort_by = "weight"
 template = "docs/page.html"
 
 [extra]

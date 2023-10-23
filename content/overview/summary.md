@@ -2,7 +2,6 @@
 title = "Summary Table"
 description = "Summary table of Bitcoin covenant proposals and use cases"
 weight = 20
-sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
