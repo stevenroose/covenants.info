@@ -1,7 +1,6 @@
 +++
 title = "OP_VAULT"
 description = "Overview of OP_VAULT proposal to enable vaults in Bitcoin."
-draft = false
 weight = 17
 sort_by = "weight"
 template = "docs/page.html"

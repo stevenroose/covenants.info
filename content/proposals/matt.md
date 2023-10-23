@@ -1,7 +1,6 @@
 +++
 title = "MATT"
 description = "Overview of the MATT proposal from Salvatore Ingala"
-draft = false
 weight = 40
 sort_by = "weight"
 template = "docs/page.html"

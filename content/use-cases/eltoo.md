@@ -1,7 +1,6 @@
 +++
 title = "Eltoo / LN-Symmetry"
 description = "LN Symmetry or Eltoo, a more efficient way to build Lightning Channels, as a Bitcoin Covenant use case"
-draft = false
 weight = 15
 sort_by = "weight"
 template = "docs/page.html"

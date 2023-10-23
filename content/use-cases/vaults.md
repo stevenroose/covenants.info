@@ -1,7 +1,6 @@
 +++
 title = "Vaults"
 description = "Bitcoin cold-storage vaults as a Bitcoin Covenant use case."
-draft = false
 weight = 21
 sort_by = "weight"
 template = "docs/page.html"

@@ -1,7 +1,6 @@
 +++
 title = "Payment Pools"
 description = "Overview of the payment pools / coinpools / joinpools use case for Bitcoin covenants."
-draft = false
 weight = 24
 sort_by = "weight"
 template = "docs/page.html"

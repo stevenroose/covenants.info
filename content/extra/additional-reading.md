@@ -1,7 +1,6 @@
 +++
 title = "Additional Reading"
 description = "Additional reading on covenants"
-draft = false
 weight = 10
 sort_by = "weight"
 template = "docs/page.html"

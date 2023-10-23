@@ -1,7 +1,6 @@
 +++
 title = "TLUV"
 description = "Overview of OP_TAPLEAF_UPDATE_VERIFY (TLUV) Bitcoin covenant proposal"
-draft = false
 weight = 22
 sort_by = "weight"
 template = "docs/page.html"

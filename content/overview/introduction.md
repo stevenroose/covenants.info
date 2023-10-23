@@ -1,7 +1,6 @@
 +++
 title = "Introduction"
 description = "Introduction to Bitcoin covenant proposals and use cases"
-draft = false
 weight = 10
 sort_by = "weight"
 template = "docs/page.html"
