@@ -7,7 +7,6 @@ template = "docs/page.html"
 [extra]
 lead = ""
 toc = true
-top = false
 +++
 
 ##### Links

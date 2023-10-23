@@ -7,7 +7,6 @@ template = "docs/page.html"
 [extra]
 lead = "OP_CHECKTEMPLATEVERIFY"
 toc = true
-top = false
 +++
 
 

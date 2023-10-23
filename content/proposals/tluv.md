@@ -7,7 +7,6 @@ template = "docs/page.html"
 [extra]
 lead = "OP_TAPLEAF_UPDATE_VERIFY"
 toc = true
-top = false
 +++
 
 

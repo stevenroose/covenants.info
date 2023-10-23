@@ -7,7 +7,6 @@ template = "docs/page.html"
 [extra]
 lead = "Covenant All The Things"
 toc = true
-top = false
 +++
 
 

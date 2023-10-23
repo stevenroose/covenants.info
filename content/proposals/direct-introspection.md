@@ -7,7 +7,6 @@ template = "docs/page.html"
 [extra]
 lead = "OP_TX or individual opcodes"
 toc = true
-top = false
 +++
 
 

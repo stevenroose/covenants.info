@@ -7,7 +7,6 @@ template = "docs/page.html"
 [extra]
 lead = "Merkleize All The Things"
 toc = true
-top = false
 +++
 
 

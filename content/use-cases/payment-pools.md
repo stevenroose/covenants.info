@@ -7,7 +7,6 @@ template = "docs/page.html"
 [extra]
 lead = "aka Coinpools, Joinpools"
 toc = true
-top = false
 +++
 
 ##### Links

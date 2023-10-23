@@ -8,7 +8,6 @@ template = "docs/page.html"
 [extra]
 lead = "SIGHASH_ANYPREVOUT (APO)"
 toc = true
-top = false
 +++
 
 

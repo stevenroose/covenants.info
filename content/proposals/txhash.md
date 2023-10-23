@@ -7,7 +7,6 @@ template = "docs/page.html"
 [extra]
 lead = "OP_TXHASH and OP_CHECKTXHASHVERIFY"
 toc = true
-top = false
 +++
 
 
