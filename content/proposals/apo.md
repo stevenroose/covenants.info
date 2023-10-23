@@ -1,11 +1,12 @@
 +++
-title = "APO"
+title = "ANYPREVOUT"
 description = "Overview of the Merklize All The Things proposal from Salvatore Ingala"
+slug = "apo"
 weight = 10
 template = "docs/page.html"
 
 [extra]
-lead = "SIGHASH_ANYPREVOUT"
+lead = "SIGHASH_ANYPREVOUT (APO)"
 toc = true
 top = false
 +++
