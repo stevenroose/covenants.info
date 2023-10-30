@@ -13,7 +13,7 @@ toc = false
 
 ## Use Cases
 
-use case           | apo   | ctv  | txhash | tluv | intro | vault | catt | matt | template-key
+use case           | apo   | ctv  | txhash | tluv | intro | vault | catt | matt | tplk
 -|-|-|-|-|-|-|-|-|-
 Lightning Symmerty | yes   | no   | yes    | ?    | yes   | no    | yes  | yes  | yes
 Vaults             | no    | no   | tap*   | yes  | tap*  | yes   | yes  | yes  | tap*
