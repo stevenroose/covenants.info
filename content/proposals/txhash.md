@@ -31,7 +31,7 @@ Whereas CTV allows a user to commit to an entirely pre-specified spending transa
 transaction output, TXHASH allows the user to specify a range of individual bits of the spending
 transaction to be included in the transaction template. The added flexibility solves a range of
 difficulties that protocols face when using CTV (for example related to paying fees for the
-pre-specified transactions), but it also enables additional independent use-cases like equality
+pre-specified transactions), but it also enables additional independent use cases like equality
 checking of input and output values or scriptPubkeys.
 
 
@@ -50,8 +50,8 @@ Schnorr sighash flag.
 
 ## Use Cases
 
-For use cases that are enabled this proposal, we refer to the more general use case page of
-[transaction templating](/use-cases/tx-templating), or to the [summary
+For use cases that are enabled in this proposal, we refer to the more general use case page of
+[transaction templating](/use-cases/tx-templating), or the [summary
 table](/overview/summary). For usage of `OP_TXHASH` together with some other opcodes, we refer
 to the [CATT](/proposals/catt) proposal page.
 
