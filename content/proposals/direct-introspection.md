@@ -17,15 +17,15 @@ toc = true
 
 ## Introduction
 
-A very straight-forward way to achieve covenans is to give the Script of a transaction's inputs
+A straightforward way to achieve covenants is to give the Script of a transaction's inputs
 direct access into the entire transaction's data. If the script can inspect any part of the
 transaction, it is by definition introspective and can enforce any possible constraint on the
 transaction's properties.
 
 Technically, there are two ways direct transaction introspection can be realized, either through
-various different opcodes to _query_ various different aspects of the transaction, to be put onto
+various opcodes to _query_ different aspects of the transaction, to be put onto
 the stack by the script execution engine; or by introducing a single opcode together with an
-additional specifier of what parts of the transaction you actually want.
+additional specifier of what parts of the transaction you want.
 
 
 #### Individual opcodes
@@ -47,14 +47,14 @@ shape of the following opcodes (excluding the ones only relevant for Elements):
 - `OP_INSPECTNUMOUTPUTS`
 - `OP_TXWEIGHT`
 
-Implementation and usage of these opcodes is rather straight-forward.
+Implementation and usage of these opcodes is rather straightforward.
 
 
 #### General opcode
 
 An example of the latter approach would be `OP_TX`, a single opcode that takes a specifier from the
 stack that the user can use to indicate what parts of the transaction they want. The benefits of
-this approach are that more transaction data be requested using less script bytes.
+this approach are that more transaction data be requested using fewer script bytes.
 
 A potential implementation of `OP_TX` could be based on the specification of `OP_TXHASH` as
 described in [this section](/proposals/txhash/#potential-extensions) where the same specifier can be
