@@ -14,17 +14,21 @@ toc = true
 ##### Links
 
 - [Bitcoin Optech](https://bitcoinops.org/en/topics/sighash_anyprevout/)
+- [anyprevout.xyz](https://anyprevout.xyz/)
 
 
 ## Introduction
 
 `SIGHASH_ANYPREVOUT`, an updated version of `SIGHASH_NOINPUT`, is a proposal for a signature hash
 (sighash) where the identifier for the UTXO being spent is not signed, allowing the signature to be
-used with any UTXO that’s protected by a similar script (i.e. uses the same public keys).
+used with any UTXO that is protected by a similar script (i.e. uses the same public keys).
 
-The original proposal for `SIGHASH_NOINPUT`, was included in the [Eltoo](/use-cases/eltoo)
-paper.
+In other words, a transaction presigned with `SIGHASH_ANYPREVOUT` can be signed once and later
+"attached" to multiple different outputs, as long as the conditions are met.
 
+The original proposal for `SIGHASH_NOINPUT`, was mentioned in the [original Lightning Network
+paper](https://lightning.network/lightning-network-paper.pdf) and a more detailed proposal in the
+[Eltoo whitepaper](https://blockstream.com/eltoo.pdf).
 
 ## Specification
 
@@ -34,6 +38,8 @@ This proposal has been specified in
 
 ## Use Cases
 
-APO was specifically proposed to bring about Eltoo, but can be used to achieve various other use
-cases. However,
-
+APO was specifically proposed to bring about [Eltoo](/use-cases/eltoo), but can be used to achieve various other use
+cases, such as [Statechains](/use-cases/statechains) and [Spacechains](/use-cases/spacechains). It
+can also be used to inefficiently emulate a [CTV](/proposals/ctv)-like covenant and all its
+use-cases, but the efficiency loss makes these use cases much less compelling than the 3 proposals
+above.
