@@ -29,7 +29,7 @@ This proposal has been specified in
 ## Use Cases
 
 Template Key aims to enable everything that APO does, and to satisfy a useful
-array of other hashed template use-cases which might have been unduely
-contrained by CTV (or pre-signed APO output covenants). For Ark, it offers
+array of other hashed template use-cases which might have been unduly
+constrained by CTV (or pre-signed APO output covenants). For Ark, it offers
 hashing modes which include all-but-first input/output.
 

@@ -33,7 +33,7 @@ Ark is currently still in design phase and no specification or implementation ex
 In theory it is possible to build Ark on Bitcoin without covenants, but with the use of [transaction
 templating](/use-cases/tx-templating), the protocol becomes a lot less interactive.
 
-Herefore, ideally Ark would be built on some transaction templating mechanism. It would be possible
+Therefore, ideally Ark would be built on some transaction templating mechanism. It would be possible
 to use [CTV](/proposals/ctv), but ideally something more flexible like
 [TXHASH](/proposals/txhash) would be preferred.
 

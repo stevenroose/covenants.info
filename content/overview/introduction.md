@@ -22,5 +22,5 @@ Use the side-bar to explore the different use cases and proposals or check out t
 This web page is definitely not a finished work. Since it is collaborative, everyone is very much
 invited to contribute to it [on GitHub](https://github.com/stevenroose/covenants.info)!
 
-Apart from content contributors, some with would also be appreciated on the website, we use the
+Apart from content contributors, some help would also be appreciated on the website. We currently use the
 static site generator [Zola](https://getzola.org/) and the [AdiDoks](https://adidoks.org/) theme.

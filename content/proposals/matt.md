@@ -18,7 +18,7 @@ toc = true
 ## Introduction
 
 MATT is a proposal to enable a fraud-proof system for smart contracts on
-Bitcoin. It can compile very general programs into a merklized execution tree, for which fraud
+Bitcoin. It can compile very general programs into a merkalized execution tree, for which fraud
 proofs can be executed on the Bitcoin main chain.
 
 

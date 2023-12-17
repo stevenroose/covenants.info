@@ -28,6 +28,6 @@ opcodes such as OP_CHECKSIGFROMSTACK (CSFS) and OP_CHECKTEMPLATEVERIFY ([CTV](/p
 Where it differs from previous proposals is that it allows the created of the tapscript to specify
 modifications to both the internal key and a tapscript tree (MAST).
 
-Ideally TLUV would be activated in conjuction with some additional opcode or mechanism to introspect
+Ideally TLUV would be activated in conjunction with some additional opcode or mechanism to introspect
 the amounts of inputs and outputs in the current transaction.
 

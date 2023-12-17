@@ -17,7 +17,7 @@ toc = true
 
 ## Introduction
 
-A very straight-forward way to achieve covenans is to give the Script of a transaction's inputs
+A very straight-forward way to achieve covenants is to give the Script of a transaction's inputs
 direct access into the entire transaction's data. If the script can inspect any part of the
 transaction, it is by definition introspective and can enforce any possible constraint on the
 transaction's properties.
