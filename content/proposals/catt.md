@@ -13,7 +13,7 @@ toc = true
 ## Introduction
 
 CATT is a proposal to collectively enable a set of independently specified opcodes that together
-enable a very wide range of use cases. The idea is to provide very raw and simple buildig blocks
+enable a very wide range of use cases. The idea is to provide very raw and simple building blocks
 that can be used by developers to build use cases instead of focussing on use case-specific opcodes.
 
 
