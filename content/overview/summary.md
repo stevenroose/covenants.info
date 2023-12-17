@@ -21,6 +21,7 @@ Payment Pools      | no    | no   | tap*   | yes  | tap*  | ~ctv  | yes  | yes  
 Ark                | half  | half | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
 Fraud Proofs       | no    | no   | no     | no   | no    | no    | no   | yes  | no
 Congestion Control | no    | yes  | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
+Statechains        | yes   | no   | yes    | ?    | yes   | no    | yes  | yes  | yes
 
 
 Glossary:
