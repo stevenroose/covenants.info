@@ -22,6 +22,7 @@ Ark                | half  | half | yes    | no   | yes   | ~ctv  | yes  | yes  
 Spacechains        | yes   | half | yes    | ?    | no    | ?     | yes  | no   | yes
 Fraud Proofs       | no    | no   | no     | no   | no    | no    | no   | yes  | no
 Congestion Control | no    | yes  | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
+Statechains        | yes   | no   | yes    | ?    | yes   | no    | yes  | yes  | yes
 
 
 Glossary:
