@@ -37,6 +37,7 @@ compromised).
 ## Requirements
 
 Vaults generally need two things:
+
 - a way to enforce certain properties on the input and output values of a transaction
 - a way to enforce a delay period after which a certain script can be activated.
 

@@ -21,7 +21,7 @@ toc = true
 `OP_CHECKTEMPLATEVERIFY` (CTV) is a proposed new opcode that takes a commitment hash as a parameter
 and requires any transaction executing the opcode include a set of outputs that match the
 commitment. This makes it possible to create an address that specifies how any funds received to
-that address may be spent—a design known in Bitcoin as a covenant.
+that address may be spent — a design known in Bitcoin as a covenant.
 
 Originally introduced under the name `OP_CHECKOUTPUTSHASHVERIFY` (COSHV) and later renamed
 `OP_SECURETHEBAG`, the proposal initially focused on the ability to create congestion control

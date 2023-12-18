@@ -25,7 +25,7 @@ proposal.
 
 The `OP_TXHASH` and `OP_CHECKTXHASHVERIFY` opcodes themselves can be considered an upgrade or
 generalization of `OP_CHECKTEMPLATEVERIFY` and thus a way of enabling
-advances [transaction templating](/use-cases/tx-templating).
+advanced [transaction templating](/use-cases/tx-templating).
 
 Whereas CTV allows a user to commit to an entirely pre-specified spending transaction of a certain
 transaction output, TXHASH allows the user to specify a range of individual bits of the spending
