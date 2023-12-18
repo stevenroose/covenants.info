@@ -1,7 +1,7 @@
 +++
 title = "Statechains"
 description = "Statechains: non-custodial scalable UTXO transfer based on Eltoo"
-weight = 16
+weight = 29
 template = "docs/page.html"
 
 [extra]

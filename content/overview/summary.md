@@ -19,10 +19,10 @@ Lightning Symmetry | yes   | no   | yes    | ?    | yes   | no    | yes  | yes  
 Vaults             | no    | no   | tap*   | yes  | tap*  | yes   | yes  | yes  | tap*
 Payment Pools      | no    | no   | tap*   | yes  | tap*  | ~ctv  | yes  | yes  | tap*
 Ark                | half  | half | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
-Spacechains        | yes   | half | yes    | ?    | no    | ?     | yes  | no   | yes
 Fraud Proofs       | no    | no   | no     | no   | no    | no    | no   | yes  | no
-Congestion Control | no    | yes  | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
 Statechains        | yes   | no   | yes    | ?    | yes   | no    | yes  | yes  | yes
+Spacechains        | yes   | half | yes    | ?    | no    | ?     | yes  | no   | yes
+Congestion Control | no    | yes  | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
 
 
 Glossary:
