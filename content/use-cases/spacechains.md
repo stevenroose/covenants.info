@@ -1,7 +1,7 @@
 +++
 title = "Spacechains"
 description = "Spacechains are tokenless blockchains that can be created with Bitcoin covenants"
-weight = 16
+weight = 30
 template = "docs/page.html"
 
 [extra]
