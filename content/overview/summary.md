@@ -37,11 +37,11 @@ Glossary:
 
 proposal             | status
 -|-
-ANYPREVOUT           | [BIP][bip118] and Inquisition deployment
-CTV                  | [BIP][bip119] and Inquisition deployment
+ANYPREVOUT           | [BIP][bip118] and active on Inquisition
+CTV                  | [BIP][bip119] and active on Inquisition
 OP_VAULT             | [draft BIP][bip345] and Inquisition [patch][pr-vault]
 TLUV                 | idea
-TXHASH               | [draft BIP][bip-txhash]
+TXHASH               | [draft BIP][bip-txhash] and [Bitcoin Core Implementation][pr-txhash]
 Direct Introspection | ideas
 CATT                 | partial BIP'ed, partial ideas
 MATT                 | very detailed ideas
@@ -53,6 +53,7 @@ Template Key         | [early draft BIP][bip-template-key]
 [bip119]: https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki
 [bip345]: https://github.com/bitcoin/bips/pull/1421
 [bip-txhash]: https://github.com/bitcoin/bips/pull/1500
+[pr-txhash]: https://github.com/bitcoin/bitcoin/pull/29050
 [bip-template-key]: https://github.com/reardencode/bips/blob/bip-template-key/bip-template-key.mediawiki
 
 [pr-vault]: https://github.com/bitcoin-inquisition/bitcoin/pull/21
