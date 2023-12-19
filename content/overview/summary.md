@@ -43,7 +43,7 @@ CTV                  | [BIP][bip119] and active on Inquisition
 OP_VAULT             | [draft BIP][bip345] and Inquisition [patch][pr-vault]
 TLUV                 | idea
 TXHASH               | [draft BIP][bip-txhash] and [Bitcoin Core Implementation][pr-txhash]
-Direct Introspection | ideas
+Direct Introspection | ideas (but [active on Liquid][intro-liquid])
 CATT                 | partial BIP'ed, partial ideas
 MATT                 | very detailed ideas
 Template Key         | [early draft BIP][bip-template-key]
@@ -54,7 +54,9 @@ Template Key         | [early draft BIP][bip-template-key]
 [bip119]: https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki
 [bip345]: https://github.com/bitcoin/bips/pull/1421
 [bip-txhash]: https://github.com/bitcoin/bips/pull/1500
-[pr-txhash]: https://github.com/bitcoin/bitcoin/pull/29050
 [bip-template-key]: https://github.com/reardencode/bips/blob/bip-template-key/bip-template-key.mediawiki
 
+[pr-txhash]: https://github.com/bitcoin/bitcoin/pull/29050
 [pr-vault]: https://github.com/bitcoin-inquisition/bitcoin/pull/21
+
+[intro-liquid]: https://github.com/ElementsProject/elements/blob/master/doc/tapscript_opcodes.md
