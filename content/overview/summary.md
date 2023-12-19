@@ -13,22 +13,23 @@ toc = false
 
 ## Use Cases
 
-use case           | apo   | ctv  | txhash | tluv | intro | vault | catt | matt | tplk
+use case           | apo   | ctv   | txhash | tluv | intro | vault | catt | matt | tplk
 -|-|-|-|-|-|-|-|-|-
-Lightning Symmetry | yes   | no   | yes    | ?    | yes   | no    | yes  | yes  | yes
-Vaults             | no    | no   | tap*   | yes  | tap*  | yes   | yes  | yes  | tap*
-Payment Pools      | no    | no   | tap*   | yes  | tap*  | ~ctv  | yes  | yes  | tap*
-Ark                | half  | half | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
-Fraud Proofs       | no    | no   | no     | no   | no    | no    | no   | yes  | no
-Statechains        | yes   | no   | yes    | ?    | yes   | no    | yes  | yes  | yes
-Spacechains        | yes   | half | yes    | ?    | no    | ?     | yes  | no   | yes
-Congestion Control | no    | yes  | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
+Lightning Symmetry | yes   | csfs* | csfs*  | ?    | yes   | no    | yes  | yes  | yes
+Vaults             | no    | yes   | tap*   | yes  | tap*  | yes   | yes  | yes  | tap*
+Payment Pools      | no    | no    | tap*   | yes  | tap*  | ~ctv  | yes  | yes  | tap*
+Ark                | half  | half  | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
+Fraud Proofs       | no    | no    | no     | no   | no    | no    | no   | yes  | no
+Statechains        | yes   | no    | yes    | ?    | yes   | no    | yes  | yes  | yes
+Spacechains        | yes   | half  | yes    | ?    | no    | ?     | yes  | no   | yes
+Congestion Control | no    | yes   | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
 
 
 Glossary:
 
 - tap*: yes if combined with something that allows turning a script into a Taproot, plus often
   also `OP_CAT`
+- csfs*: yes if combined with `OP_CHECKSIGFROMSTACK`
 - ~ctv: yes but only because the `OP_VAULT` proposal also includes `OP_CTV`
 
 
