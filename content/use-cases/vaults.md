@@ -47,6 +47,6 @@ extensive topic of discussion within the covenants debate.
 
 ## OP_VAULT
 
-Vaults are such a popular use case that [a set of opcodes are proposed](/proposals/op_vault)
+Vaults are such a popular use case that [a set of opcodes are proposed](/proposals/op-vault)
 explicitly to enable vaults.
 
