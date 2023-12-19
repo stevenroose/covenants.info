@@ -42,7 +42,7 @@ CTV                  | [BIP][bip119] and Inquisition deployment
 OP_VAULT             | [draft BIP][bip345] and Inquisition [patch][pr-vault]
 TLUV                 | idea
 TXHASH               | [draft BIP][bip-txhash]
-Direct Introspection | ideas
+Direct Introspection | [Implemented in Elements](https://github.com/ElementsProject/elements/blob/master/doc/tapscript_opcodes.md)
 CATT                 | partial BIP'ed, partial ideas
 MATT                 | very detailed ideas
 Template Key         | [early draft BIP][bip-template-key]
