@@ -38,8 +38,8 @@ against pump-and-dump scams][p1wp].
 It is possible to build an [inefficient, fragile version of a Spacechain][supertestnet] without
 covenants, but it only becomes a serious idea once it uses some kind of covenant that allows the
 chain of BMM transactions to be immutable, which requires either [APO](/proposals/apo) or
-[TXHASH](/proposals/txhash). [CTV](/proposals/ctv) could also work, although with a slight tradeoff
-that makes it less appealing.
+[TXHASH](/proposals/txhash). [CTV](/proposals/ctv) could also work, although with a tradeoff that
+makes BMM riskier and costlier, so it is it less appealing.
 
   [video]: https://www.youtube.com/watch?v=N2ow4Q34Jeg
   [bmm]: https://gist.github.com/RubenSomsen/5e4be6d18e5fa526b17d8b34906b16a5

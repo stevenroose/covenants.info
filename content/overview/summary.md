@@ -20,8 +20,8 @@ Vaults             | no    | yes   | tap*   | yes  | tap*  | yes   | yes  | yes 
 Payment Pools      | no    | no    | tap*   | yes  | tap*  | ~ctv  | yes  | yes  | tap*
 Ark                | half  | half  | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
 Fraud Proofs       | no    | no    | no     | no   | no    | no    | no   | yes  | no
-Statechains        | yes   | no    | yes    | ?    | yes   | no    | yes  | yes  | yes
-Spacechains        | yes   | half  | yes    | ?    | no    | ~ctv  | yes  | no   | yes
+Statechains        | yes   | no    | csfs*  | ?    | yes   | no    | yes  | yes  | yes
+Spacechains        | yes   | half  | yes    | ?    | ?     | ~ctv  | ?    | ?    | yes
 Congestion Control | no    | yes   | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
 
 
