@@ -37,21 +37,21 @@ exists at the UTXO level.
 
 ## Technical Requirements
 
-Covenants are needed to operate this system at maximum scalability and reliability, for the current
-owner of a _statecoin_ to be able to redeem his UTXO without cooperation from the SE, it must receive,
-at the time of the transfer, a presigned _"backup" withdraw transaction_ that spents the locked UTXO
-to a Bitcoin address under his control.
+A kind of APO-like functionality to operate this system at maximum scalability and reliability, for
+the current owner of a _statecoin_ to be able to redeem his UTXO without cooperation from the SE, it
+must receive, at the time of the transfer, a presigned _"backup" withdraw transaction_ that spents
+the locked UTXO to a Bitcoin address under his control.
 
 To prevent previous owners from using their old _backup transactions_ to steal the UTXO, a mechanism
-like the one used in [Eltoo](/proposals/eltoo) is employed, such that if an previous owner tries to
-steal the current owner can always overwrite his efforts and claim the funds.
+like the one used in [Eltoo](/proposals/eltoo) is employed, such that if a previous owner tries to
+steal the current owner can always overwrite the steal transaction and claim the funds.
 
 [Mercury Layer][mercury] implements a degraded variant of Statechains that works today, creating
 _backup transactions_ that start with a huge `nLockTime` and decrease these with each transfer. This
 has two drawbacks that don't exist in the full system with covenants:
 
-  a. Backup withdrawals may take a long time, which is bad when an immediate withdraw is needed;
-  b. Some users are forced to fall to the chain and pay unnecessary fees at seemingly random times,
+  1. Backup withdrawals may take a long time, which is bad when an immediate withdraw is needed;
+  2. Some users are forced to fall to the chain and pay unnecessary fees at seemingly random times,
 which may make them value _statecoins_ that are about to expire less than _statecoins_ that will
 expire long in the future.
 
