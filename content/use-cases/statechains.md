@@ -37,10 +37,10 @@ exists at the UTXO level.
 
 ## Technical Requirements
 
-A kind of APO-like functionality to operate this system at maximum scalability and reliability, for
-the current owner of a _statecoin_ to be able to redeem his UTXO without cooperation from the SE, it
-must receive, at the time of the transfer, a presigned _"backup" withdraw transaction_ that spents
-the locked UTXO to a Bitcoin address under his control.
+A new kind of sighash system (akin to [APO](/proposals/apo)) is required to operate this system at
+maximum scalability and reliability, for the current owner of a _statecoin_ to be able to redeem his
+UTXO without cooperation from the SE, it must receive, at the time of the transfer, a presigned
+_"backup" withdraw transaction_ that spents the locked UTXO to a Bitcoin address under his control.
 
 To prevent previous owners from using their old _backup transactions_ to steal the UTXO, a mechanism
 like the one used in [Eltoo](/proposals/eltoo) is employed, such that if a previous owner tries to
