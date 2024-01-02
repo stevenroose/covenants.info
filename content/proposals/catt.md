@@ -51,6 +51,7 @@ The individual pieces of this transaction are specified in different BIPs:
 - `OP_TWEAKVERIFY`: no BIP yet, but already
   [implemented](https://github.com/ElementsProject/elements/blob/c248983aabeba8badf90b2dce36cd35babbe51f6/src/script/interpreter.cpp#L2215)
   and active in Elements
+- 64-bit arithmetic: [proposed by Rusty](https://rusty.ozlabs.org/2023/12/30/arithmetic-opcodes.html)
 
 
 
