@@ -39,8 +39,8 @@ This proposal has been specified in
 ## Use Cases
 
 APO was specifically proposed to bring about [Eltoo](/use-cases/eltoo), a more efficient Lightning
-Channel update mechanism.
-
-It can however also be used to emulate real covenants and many covenant use-cases, but this
-emulation is both more fragile (as you need to store signatures and pre-signed transactions) and
-less efficient, so it is not an ideal solution to bring about these use-cases.
+Channel update mechanism, but can be used to achieve various other use cases, such as
+[Statechains](/use-cases/statechains) and [Spacechains](/use-cases/spacechains). It can also be used
+to emulate a [CTV](/proposals/ctv)-like covenant and all its use-cases, but this emulation is both
+more fragile (as you need to store signatures and pre-signed transactions) and less efficient, so it
+is not an ideal solution to bring about these use-cases.
