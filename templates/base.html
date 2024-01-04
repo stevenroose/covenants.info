@@ -41,8 +41,11 @@
   {% endif %}
 {% endblock seo %}
 
+<script defer data-domain="covenants.info" src="https://plausible.io/js/script.js"></script>
+
 {{ macros_head::favicons() }}
 {% block math %}{{ macros_math::math() }}{% endblock math %}
+
 </head>
 {% block body %}{% set page_class="home" %}{% endblock body %}
 <body class="{{ page_class }}">
