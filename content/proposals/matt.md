@@ -37,7 +37,7 @@ Currently, they are the following:
 
 ## Use Cases
 
-A very wide range of use cases can be enabled by MATT, though it's ability to execute fraud proofs
+A very wide range of use cases can be enabled by MATT, through it's ability to execute fraud proofs
 for arbitrary programs. When it comes to covenants, however, it seems that transaction introspection
 is achieved primarily by using the individual opcodes enabled by the proposal.
 
