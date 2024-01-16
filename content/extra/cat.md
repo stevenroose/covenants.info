@@ -12,24 +12,23 @@ toc = true
 
 ## Introduction
 
-`OP_CAT` is a simple opcode concatenates two byte strings together in Bitcoin Script.
+`OP_CAT` is a simple opcode that concatenates two byte strings together in Bitcoin Script.
 
 Andrew Poelstra once wrote a two-part series of blog posts to showcase how the `OP_CAT` opcode can
 in itself effectively enable covenants:
 
-- https://www.wpsoftware.net/andrew/blog/cat-and-schnorr-tricks-i.html
-- https://www.wpsoftware.net/andrew/blog/cat-and-schnorr-tricks-ii.html
+- [CAT and Schnorr tricks 1](https://www.wpsoftware.net/andrew/blog/cat-and-schnorr-tricks-i.html)
+- [CAT and Schnorr tricks 2](https://www.wpsoftware.net/andrew/blog/cat-and-schnorr-tricks-ii.html)
 
-Obviously, however, a proposal to enable `OP_CAT` is not a proposal to add covenants to Bitcoin, but
-simply a proposal to add an opcode that is very useful generally for many use cases. In fact,
-several of the covenant proposals become significantly more powerful when they can be combined with
-`OP_CAT`.
-
+It's important to clarify that this proposal doesn't aim to introduce covenants to Bitcoin. Instead,
+it is focused on introducing an opcode that holds broad utility across various scenarios. The
+potency of several covenant proposals increases substantially when they can be integrated with the
+functionality provided by `CAT`.
 
 
 ## Specification
 
-A BIP of the `OP_CAT` opcodes is currently [in draft status on
+A BIP of the `OP_CAT` opcode is currently [in draft status on
 GitHub](https://github.com/bitcoin/bips/pull/1525).
 
 An implementation on Bitcoin Inquisition [is also
