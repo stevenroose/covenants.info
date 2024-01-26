@@ -22,7 +22,7 @@ toc = true
 A new `OP_TAPLEAF_UPDATE_VERIFY` (TLUV) opcode is proposed that takes information about the taproot
 input being spent, makes modifications described in a tapscript, and requires that the result be
 equivalent to the scriptPubKey in the output in the same position as the input. This allows TLUV to
-constrain where the bitcoins can be spent (the definition of a covenant), similar to other proposed
+constrain where the bitcoin can be spent (the definition of a covenant), similar to other proposed
 opcodes such as OP_CHECKSIGFROMSTACK (CSFS) and OP_CHECKTEMPLATEVERIFY ([CTV](/proposals/ctv)).
 
 Where it differs from previous proposals is that it allows the created of the tapscript to specify
