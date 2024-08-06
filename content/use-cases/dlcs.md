@@ -12,7 +12,7 @@ toc = true
 ##### Links
 
 - [dlc specifications](https://github.com/discreetlogcontracts/dlcspecs/)
-- [dlc-dev mailing list post](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-February/019864.html)
+- [dlc-dev mailing list post](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-January/019808.html)
 - [dlcs implemented with different covenant proposals](https://github.com/bennyhodl/dlcat)
 
 ## Introduction
