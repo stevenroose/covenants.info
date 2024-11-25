@@ -36,6 +36,13 @@ coinjoin transactions in new ways that might simplify construction or reduce fee
 have mentioned that the new opcode could possibly be used to allow users to trustlessly pool their
 funds together into a single UTXO in a way that would increase privacy.
 
+The original proposal also emphasized other contracts and covenants that could be created using the new opcode,
+such as the ability to create channel factories, vaults, coinjoin transactions in new ways that might simplify
+construction or reduce fees, and described how the new opcode could possibly be used to allow users to trustlessly
+pool their funds together into a single UTXO in a way that would increase privacy. These other concepts have been
+described in further detail in subsequent works by a variety of authors.
+
+
 Criticisms of the proposal have focused on it being too specific to the congestion control use case
 rather than providing a generic covenant capability.
 
