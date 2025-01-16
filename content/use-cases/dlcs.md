@@ -21,7 +21,7 @@ Discreet Log Contracts (DLCs) are a type of smart contract that allows two parti
 
 ## Covenant-Enhanced DLCs
 
-With the introduction of covenant proposals like [CTV](/proposals/ctv) or [CAT](/extra/CAT), DLCs can be optimized to:
+With the introduction of covenant proposals like [CTV](/proposals/ctv), [CAT](/extra/CAT) and [TXHASH](/proposals/txhash), DLCs can be optimized to:
 
 1. Dramatically reduce computational costs
 2. Decrease the amount of data exchanged between parties
@@ -30,11 +30,13 @@ With the introduction of covenant proposals like [CTV](/proposals/ctv) or [CAT](
 
 These improvements address several user experience concerns and engineering difficulties associated with the current DLC protocol, making it much faster and more efficient to enter into a DLC.
 
+Note: [CAT](/extra/CAT) does not reduce the computation costs as much as other proposals, since you to grind the tx data to get the [last byte correct for CAT covenants](https://github.com/taproot-wizards/purrfect_vault/?tab=readme-ov-file#limitations-and-considerations) (EC operations much slower than a hash).
+
 ### Transferable DLCs
 
 Covenant proposals like [TXHASH](/proposals/txhash) or [CCV](/proposals/matt) enable DLC transferability by allowing restrictions on specific inputs and outputs. This means that DLC positions can be sold or transferred to other parties without requiring interaction with the original counterparty, significantly improving the liquidity and utility of DLCs.
 
-### Recursive Covenants
+#### Recursive Covenants
 
 Covenant proposals that enable recursive covenants, such as [CAT](/extra/CAT) and [CCV](/proposals/matt) (when combined with [PAIRCOMMIT](https://github.com/bitcoin/bips/blob/018d28c967b3f2b747ecb4e5a85d0b5f9f4ec79a/bip-PC.md)), allow for even more sophisticated DLC operations in addition to simplification and cost reduction of transferability:
 
