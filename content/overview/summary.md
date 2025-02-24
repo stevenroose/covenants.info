@@ -33,7 +33,6 @@ Glossary:
 - ~ctv: yes but only because the `OP_VAULT` proposal also includes `OP_CTV`
 
 
-
 ## Development Status
 
 proposal             | status
@@ -44,10 +43,15 @@ OP_VAULT             | [draft BIP][bip345] and Inquisition [patch][pr-vault]
 TLUV                 | idea
 TXHASH               | [draft BIP][bip-txhash] and [Bitcoin Core Implementation][pr-txhash]
 Direct Introspection | ideas (but [active on Liquid][intro-liquid])
-CATT                 | partial BIP'ed, partial ideas
 MATT                 | very detailed ideas
 Template Key         | [early draft BIP][bip-template-key]
 
+
+## Developer Support
+
+The bitcoin wiki has a page where certain prominent bitcoin developers have indicated their support
+for various proposals, some of them adding a rationale behind their support:
+- [https://en.bitcoin.it/wiki/Covenants_support](https://en.bitcoin.it/wiki/Covenants_support)
 
 
 [bip118]: https://github.com/bitcoin/bips/blob/master/bip-0118.mediawiki
