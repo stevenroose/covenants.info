@@ -13,16 +13,16 @@ toc = false
 
 ## Use Cases
 
-use case           | apo   | ctv   | txhash | tluv | intro | vault | catt | matt | tplk
--|-|-|-|-|-|-|-|-|-
-Lightning Symmetry | yes   | csfs* | csfs*  | ?    | yes   | no    | yes  | yes  | yes
-Vaults             | no    | yes   | tap*   | yes  | tap*  | yes   | yes  | yes  | tap*
-Payment Pools      | no    | no    | tap*   | yes  | tap*  | no    | yes  | yes  | tap*
-Ark                | half  | half  | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
-Fraud Proofs       | no    | no    | no     | no   | no    | no    | no   | yes  | no
-Statechains        | yes   | csfs* | csfs*  | ?    | yes   | no    | yes  | yes  | yes
-Spacechains        | yes   | yes   | yes    | ?    | ?     | ~ctv  | ?    | ?    | yes
-Congestion Control | no    | yes   | yes    | no   | yes   | ~ctv  | yes  | yes  | yes
+use case           | apo   | ctv   | txhash | tluv | intro | vault | matt
+-|-|-|-|-|-|-|-
+Lightning Symmetry | yes   | csfs* | csfs*  | ?    | yes   | no    | yes
+Vaults             | no    | yes   | tap*   | yes  | tap*  | yes   | yes
+Payment Pools      | no    | no    | tap*   | yes  | tap*  | no    | yes
+Ark                | half  | half  | yes    | no   | yes   | ~ctv  | yes
+Fraud Proofs       | no    | no    | no     | no   | no    | no    | yes
+Statechains        | yes   | csfs* | csfs*  | ?    | yes   | no    | yes
+Spacechains        | yes   | yes   | yes    | ?    | ?     | ~ctv  | ?
+Congestion Control | no    | yes   | yes    | no   | yes   | ~ctv  | yes
 
 
 Glossary:
