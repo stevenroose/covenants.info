@@ -2,7 +2,7 @@
 title = "Template Key"
 description = "Overview of the Template Key proposal by Brandon Black"
 slug = "template-key"
-weight = 10
+#weight = 10
 template = "docs/page.html"
 
 [extra]

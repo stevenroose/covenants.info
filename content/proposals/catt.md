@@ -1,7 +1,7 @@
 +++
 title = "CATT"
 description = "Overview of CATT Bitcoin covenant proposal: Covenant All The Things."
-weight = 30
+#weight = 30
 template = "docs/page.html"
 
 [extra]
