@@ -1,5 +1,5 @@
 +++
-title = "MATT"
+title = "CCV & MATT"
 description = "Overview of the MATT proposal from Salvatore Ingala"
 weight = 40
 template = "docs/page.html"
