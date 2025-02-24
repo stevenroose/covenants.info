@@ -14,7 +14,7 @@ toc = false
 ## Use Cases
 
 use case           | apo   | ctv   | txhash | tluv | intro | vault | matt
--|-|-|-|-|-|-|-
+-------------------|-------|-------|--------|------|-------|-------|-----
 Lightning Symmetry | yes   | csfs* | csfs*  | ?    | yes   | no    | yes
 Vaults             | no    | yes   | tap*   | yes  | tap*  | yes   | yes
 Payment Pools      | no    | no    | tap*   | yes  | tap*  | no    | yes
