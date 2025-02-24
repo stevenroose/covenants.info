@@ -12,7 +12,7 @@ toc = true
 ##### Links
 
 - [bitcoin-dev e-mail](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021694.html)
-- [homepage](https://www.arkpill.me/)
+- [homepage](https://ark-protocol.org)
 - [presentation](https://roose.io/presentations/understanding-ark.pdf)
 
 
