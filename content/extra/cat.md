@@ -25,6 +25,9 @@ it is focused on introducing an opcode that holds broad utility across various s
 potency of several covenant proposals increases substantially when they can be integrated with the
 functionality provided by `CAT`.
 
+As a side note, `OP_CAT` is also one of the opcodes that would be re-enabled as part of the [_Great
+Script Restoration_](/extra/gsr) project.
+
 
 ## Specification
 
