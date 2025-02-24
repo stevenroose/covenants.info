@@ -37,3 +37,16 @@ Herefore, ideally Ark would be built on some transaction templating mechanism. I
 to use [CTV](/proposals/ctv), but ideally something more flexible like
 [TXHASH](/proposals/txhash) would be preferred.
 
+
+## Implementations
+
+There are currently two teams working on an implementation of Ark. Both teams have opted to develop
+a version of Ark that compromises some of the original design, which requires covenants, so that
+their implementation can be deployed on bitcoin today without the need for protocol upgrades.
+However, both teams also emphasize that the protocol and their implementation would greatly benefit
+from having a covenant activate on bitcoin.
+
+- [ark](https://github.com/ark-network/ark), a Golang implementation by [Ark
+Labs](https://arklabs.to/) ([docs](http://arkdev.info/)).
+- [bark](https://codeberg.org/ark-bitcoin/bark/), a Rust implementation by
+[Second](https://second.tech/) ([docs](http://docs.second.tech/)).
