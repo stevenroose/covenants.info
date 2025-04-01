@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="author" content="Steven Roose">
+<meta name="description" content="Documentation about Bitcoin Covenant proposals.">
+<meta name="keywords" content="bitcoin, covenants, script, blockchain, satoshi, opcode">
+<meta property="og:author" content="https://roose.io">
+<meta property="og:description" content="Documentation about Bitcoin Covenant proposals.">
+<meta property="og:title" content="Covenants.info">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://covenants.info/">
+<meta property="og:image" content="https://covenants.info/bitcoin.png">
+<meta name="twitter:author" content="@stevenroose3">
+<meta name="twitter:description" content="Documentation about Bitcoin Covenant proposals.">
+<meta name="twitter:image" content="https://covenants.info/bitcoin.png">
+<meta name="twitter:card" content="summary_large_image">
+
+
+  <link rel="preload" as="font" href="https://covenants.info/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://covenants.info/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://covenants.info/main.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+
+  
+    
+  
+  
+    
+  
+
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>DLCs - Bitcoin Covenants Wiki</title>
+<meta name="description" content="Discreet Log Contracts (DLCs) as a Bitcoin Covenant use case.">
+<link rel="canonical" href="https://covenants.info/use-cases/dlcs/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://covenants.info/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Use Cases",
+            "item": "https://covenants.info/use-cases/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Dlcs",
+            "item": "https://covenants.info/use-cases/dlcs/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+<script defer data-domain="covenants.info" src="https://plausible.io/js/script.js"></script>
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://covenants.info/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://covenants.info/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://covenants.info/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://covenants.info/site.webmanifest" crossorigin>
+  
+
+
+  
+
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://covenants.info">Bitcoin Covenants Wiki</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/stevenroose/covenants.info"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://covenants.info/"></a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+			
+					
+					
+					
+							<h3>Overview</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://covenants.info/overview/introduction/">Introduction</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/overview/summary/">Summary Table</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Proposals</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://covenants.info/proposals/apo/">ANYPREVOUT</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/proposals/ctv/">CTV</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/proposals/op-vault/">OP_VAULT</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/proposals/tluv/">TLUV</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/proposals/txhash/">TXHASH</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/proposals/direct-introspection/">Direct Introspection</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/proposals/matt/">CCV &amp; MATT</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/proposals/others/">others</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Use Cases</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://covenants.info/use-cases/tx-templating/">Transaction Templating</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/use-cases/eltoo/">Eltoo &#x2F; LN-Symmetry</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/use-cases/vaults/">Vaults</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/use-cases/payment-pools/">Payment Pools</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/use-cases/ark/">Ark</a></li>
+							                           
+									<li><a class="docs-link active" href="https://covenants.info/use-cases/dlcs/">DLCs</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/use-cases/statechains/">Statechains</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/use-cases/spacechains/">Spacechains</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/use-cases/congestion-control/">Congestion Control</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Extra</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://covenants.info/extra/additional-reading/">Additional Reading</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/extra/cat/">OP_CAT</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/extra/gsr/">The Great Script Restoration</a></li>
+							                           
+									<li><a class="docs-link" href="https://covenants.info/extra/bitvm/">BitVM</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+
+	  
+  
+  <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  	<div class="page-links">
+  			<h3>On this page</h3>
+  			<nav id="TableOfContents">
+  					<ul>
+  							
+  							<li><a href="https://covenants.info/use-cases/dlcs/#links">Links</a></li>
+  							
+  							
+  							<li><a href="https://covenants.info/use-cases/dlcs/#introduction">Introduction</a></li>
+  							
+  							
+  							<li><a href="https://covenants.info/use-cases/dlcs/#covenant-enhanced-dlcs">Covenant-Enhanced DLCs</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://covenants.info/use-cases/dlcs/#transferable-dlcs">Transferable DLCs</a></li>
+  											
+  									</ul>
+  							
+  							
+  							<li><a href="https://covenants.info/use-cases/dlcs/#key-benefits">Key Benefits</a></li>
+  							
+  							
+  							<li><a href="https://covenants.info/use-cases/dlcs/#trade-offs">Trade-offs</a></li>
+  							
+  							
+  					</ul>
+  			</nav>
+  	</div>
+  </nav>
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>DLCs</h1>
+        
+        <h5 id="links">Links</h5>
+<ul>
+<li><a href="https://github.com/discreetlogcontracts/dlcspecs/">dlc specifications</a></li>
+<li><a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-January/019808.html">dlc-dev mailing list post</a></li>
+<li><a href="https://github.com/bennyhodl/dlcat">dlcs implemented with different covenant proposals</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>Discreet Log Contracts (DLCs) are a type of smart contract that allows two parties to create a bet
+or financial contract based on the future outcome of an event, as determined by an oracle. While
+DLCs are already possible on Bitcoin without covenants, the introduction of certain covenant
+proposals could significantly improve their usability.</p>
+<h2 id="covenant-enhanced-dlcs">Covenant-Enhanced DLCs</h2>
+<p>With the introduction of covenant proposals like <a href="/proposals/ctv">CTV</a>, <a href="/extra/CAT">CAT</a> and
+<a href="/proposals/txhash">TXHASH</a>, DLCs can be optimized to:</p>
+<ol>
+<li>Dramatically reduce computational costs</li>
+<li>Decrease the amount of data exchanged between parties</li>
+<li>Simplify the implementation of oracle thresholds</li>
+<li>Potentially eliminate the need for attestation point multiplication</li>
+</ol>
+<p>These improvements address several user experience concerns and engineering difficulties associated
+with the current DLC protocol, making it much faster and more efficient to enter into a DLC.</p>
+<p>Note: <a href="/extra/CAT">CAT</a> does not reduce the computation costs as much as other proposals, since you
+to grind the tx data to get the <a href="https://github.com/taproot-wizards/purrfect_vault/?tab=readme-ov-file#limitations-and-considerations">last byte correct for CAT
+covenants</a>
+(EC operations much slower than a hash).</p>
+<h3 id="transferable-dlcs">Transferable DLCs</h3>
+<p>Covenant proposals like <a href="/proposals/txhash">TXHASH</a> or <a href="/proposals/matt">CCV</a> enable DLC
+transferability by allowing restrictions on specific inputs and outputs. This means that DLC
+positions can be sold or transferred to other parties without requiring interaction with the
+original counterparty, significantly improving the liquidity and utility of DLCs.</p>
+<h4 id="recursive-covenants">Recursive Covenants</h4>
+<p>Covenant proposals that enable recursive covenants, such as <a href="/extra/CAT">CAT</a> and
+<a href="/proposals/matt">CCV</a> (when combined with
+<a href="https://github.com/bitcoin/bips/blob/018d28c967b3f2b747ecb4e5a85d0b5f9f4ec79a/bip-PC.md">PAIRCOMMIT</a>),
+allow for even more sophisticated DLC operations in addition to simplification and cost reduction of
+transferability:</p>
+<ul>
+<li><strong>Position Splitting</strong>: Participants can divide their DLC position into smaller pieces, each
+backed by a proportional amount of the original collateral</li>
+<li><strong>Collateral Management</strong>: Enables committing to rules for adding or adjusting collateral within the DLC structure</li>
+</ul>
+<h2 id="key-benefits">Key Benefits</h2>
+<ul>
+<li><strong>Performance Improvement</strong>: Up to 30x improvement in worst-case scenarios compared to using
+MuSig2 adaptor signatures.</li>
+<li><strong>Reduced Computation</strong>: Eliminates the need for multiple EC multiplications per Contract
+Execution Transaction (CET).</li>
+<li><strong>Simplified Oracle Thresholds</strong>: Easier implementation of multi-oracle setups without increasing
+computational complexity.</li>
+<li><strong>Reduced Communication Complexity</strong>: The amount of data exchanged between parties becomes
+constant, regardless of the number of outcomes.</li>
+<li><strong>Near-Instant Setup</strong>: These improvements allow DLCs to be set up almost instantly, even on
+resource-constrained devices and poor internet connections.</li>
+<li><strong>Transferability</strong>: DLC positions can be sold or transferred to other parties without requiring
+interaction with the original counterparty, significantly improving the liquidity and utility of
+DLCs. (<a href="/extra/CAT">CAT</a> / <a href="/proposals/txhash">TXHASH</a> / <a href="/proposals/matt">CCV</a>)</li>
+<li><strong>Position Splitting</strong>: Participants can divide their DLC position into smaller pieces, each
+backed by a proportional amount of the original collateral. (<a href="/extra/CAT">CAT</a> /
+<a href="/proposals/matt">CCV</a> +
+<a href="https://github.com/bitcoin/bips/blob/018d28c967b3f2b747ecb4e5a85d0b5f9f4ec79a/bip-PC.md">PAIRCOMMIT</a>)</li>
+<li><strong>Collateral Management</strong>: Enables committing to rules for adding or adjusting collateral.
+(<a href="/extra/CAT">CAT</a> / <a href="/proposals/matt">CCV</a> +
+<a href="https://github.com/bitcoin/bips/blob/018d28c967b3f2b747ecb4e5a85d0b5f9f4ec79a/bip-PC.md">PAIRCOMMIT</a>)</li>
+</ul>
+<h2 id="trade-offs">Trade-offs</h2>
+<ul>
+<li>Slightly larger witness size in non-cooperative cases</li>
+<li>Transactions become distinguishable from other protocols (no longer scriptless)</li>
+</ul>
+<p>Despite these minor drawbacks, covenant-enhanced DLCs offer substantial improvements in the
+efficiency of entering a DLC, making them more practical for widespread adoption and use on various
+devices.</p>
+
+        
+          
+<p class="edit-page"><a href="https:&#x2F;&#x2F;github.com&#x2F;stevenroose&#x2F;covenants.info/blob/master/content&#x2F;use-cases&#x2F;dlcs.md"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>Edit this page on GitHub</a></p>
+
+        
+        
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">All content is part of the <a href="https://github.com/stevenroose/covenants.info/blob/master/LICENSE">public domain</a>. Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a>.</li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://covenants.info/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://covenants.info/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://covenants.info/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://covenants.info/js/search.js" defer></script>
+
+  
+</body>
+</html>
