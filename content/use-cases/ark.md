@@ -48,5 +48,5 @@ from having a covenant activate on bitcoin.
 
 - [ark](https://github.com/ark-network/ark), a Golang implementation by [Ark
 Labs](https://arklabs.to/) ([docs](http://arkdev.info/)).
-- [bark](https://codeberg.org/ark-bitcoin/bark/), a Rust implementation by
+- [bark](https://gitlab.com/ark-bitcoin/bark/), a Rust implementation by
 [Second](https://second.tech/) ([docs](http://docs.second.tech/)).
