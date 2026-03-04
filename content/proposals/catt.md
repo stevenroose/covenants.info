@@ -43,11 +43,9 @@ An _extended_ version of CATT can additionally include the following:
 
 The individual pieces of this transaction are specified in different BIPs:
 
-- `OP_TXHASH`: [draft BIP](https://github.com/bitcoin/bips/pull/1500)
-- `OP_CAT`: [draft BIP](https://github.com/EthanHeilman/op_cat_draft/blob/main/cat.mediawiki)
-- `OP_CHECKSIGFROMSTACK`: no BIP yet, but already
-  [implemented](https://github.com/ElementsProject/elements/blob/f08447909101bfbbcaf89e382f55c87b2086198a/src/script/interpreter.cpp#L1399)
-  and active in Elements
+- `OP_TXHASH`: [BIP 346](https://github.com/bitcoin/bips/blob/master/bip-0346.mediawiki)
+- `OP_CAT`: [BIP 347](https://github.com/bitcoin/bips/blob/master/bip-0347.mediawiki)
+- `OP_CHECKSIGFROMSTACK`: [BIP 348](https://github.com/bitcoin/bips/blob/master/bip-0348.mediawiki)
 - `OP_TWEAKVERIFY`: no BIP yet, but already
   [implemented](https://github.com/ElementsProject/elements/blob/c248983aabeba8badf90b2dce36cd35babbe51f6/src/script/interpreter.cpp#L2215)
   and active in Elements

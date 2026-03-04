@@ -37,8 +37,7 @@ checking of input and output values or scriptPubkeys.
 
 ## Specification
 
-A BIP of the opcodes in this proposal is currently [in draft status on
-GitHub](https://github.com/bitcoin/bips/pull/1500).
+The opcodes in this proposal are specified in [BIP 346](https://github.com/bitcoin/bips/blob/master/bip-0346.mediawiki).
 
 ### Potential Extensions
 

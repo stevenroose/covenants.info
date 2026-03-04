@@ -31,8 +31,7 @@ Script Restoration_](/extra/gsr) project.
 
 ## Specification
 
-A BIP of the `OP_CAT` opcode is currently [in draft status on
-GitHub](https://github.com/bitcoin/bips/pull/1525).
+The `OP_CAT` opcode is specified in [BIP 347](https://github.com/bitcoin/bips/blob/master/bip-0347.mediawiki).
 
 An implementation on Bitcoin Inquisition [is also
 available](https://github.com/bitcoin-inquisition/bitcoin/pull/39).

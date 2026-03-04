@@ -39,11 +39,11 @@ proposal             | status
 -|-
 ANYPREVOUT           | [BIP][bip118] and active on Inquisition
 CTV                  | [BIP][bip119] and active on Inquisition
-OP_VAULT             | [draft BIP][bip345] and Inquisition [patch][pr-vault]
+OP_VAULT             | [BIP 345][bip345] — Withdrawn (May 2025), superseded by [BIP 443][bip443] (CCV)
 TLUV                 | idea
-TXHASH               | [draft BIP][bip-txhash] and [Bitcoin Core Implementation][pr-txhash]
+TXHASH               | [BIP 346][bip-txhash] and [Bitcoin Core Implementation][pr-txhash]
 Direct Introspection | ideas (but [active on Liquid][intro-liquid])
-MATT                 | very detailed ideas
+MATT                 | [BIP 443][bip443] and [Bitcoin Core Implementation][pr-matt]
 Template Key         | [early draft BIP][bip-template-key]
 
 
@@ -56,11 +56,12 @@ for various proposals, some of them adding a rationale behind their support:
 
 [bip118]: https://github.com/bitcoin/bips/blob/master/bip-0118.mediawiki
 [bip119]: https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki
-[bip345]: https://github.com/bitcoin/bips/pull/1421
-[bip-txhash]: https://github.com/bitcoin/bips/pull/1500
+[bip345]: https://github.com/bitcoin/bips/blob/master/bip-0345.mediawiki
+[bip443]: https://github.com/bitcoin/bips/blob/master/bip-0443.mediawiki
+[bip-txhash]: https://github.com/bitcoin/bips/blob/master/bip-0346.mediawiki
 [bip-template-key]: https://github.com/reardencode/bips/blob/bip-template-key/bip-template-key.mediawiki
 
 [pr-txhash]: https://github.com/bitcoin/bitcoin/pull/29050
-[pr-vault]: https://github.com/bitcoin-inquisition/bitcoin/pull/21
+[pr-matt]: https://github.com/bitcoin/bitcoin/pull/32080
 
 [intro-liquid]: https://github.com/ElementsProject/elements/blob/master/doc/tapscript_opcodes.md
