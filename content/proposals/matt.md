@@ -11,7 +11,7 @@ toc = true
 
 
 ##### Links
-- [OP_CHECKCONTRACTVERIFY BIP draft](https://github.com/bitcoin/bips/pull/1793)
+- [OP_CHECKCONTRACTVERIFY BIP 443](https://github.com/bitcoin/bips/blob/master/bip-0443.mediawiki)
 - [OP_CHECKCONTRACTVERIFY bitcoin-core implementation](https://github.com/bitcoin/bitcoin/pull/32080)
 - [MATT homepage](https://merkle.fun)
 
@@ -23,7 +23,7 @@ Together with an opcode that allows the creation of _vector commitments_ (like `
 
 ## Specification
 
-The specifications of `OP_CHECKCONTRACTVERIFY` are available in the [OP_CCV BIP draft](https://github.com/bitcoin/bips/pull/1793) and the [bitcoin-core implementation](https://github.com/bitcoin/bitcoin/pull/32080).
+The specifications of `OP_CHECKCONTRACTVERIFY` are available in [BIP 443](https://github.com/bitcoin/bips/blob/master/bip-0443.mediawiki) and the [bitcoin-core implementation](https://github.com/bitcoin/bitcoin/pull/32080).
 
 These specifications are only for the `OP_CCV` opcode, and therefore should be paired with an opcode for vector commitments for a complete proposal for MATT [as originally proposed](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-November/021182.html).
 

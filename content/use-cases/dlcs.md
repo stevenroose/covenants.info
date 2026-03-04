@@ -51,7 +51,7 @@ original counterparty, significantly improving the liquidity and utility of DLCs
 
 Covenant proposals that enable recursive covenants, such as [CAT](/extra/CAT) and
 [CCV](/proposals/matt) (when combined with
-[PAIRCOMMIT](https://github.com/bitcoin/bips/blob/018d28c967b3f2b747ecb4e5a85d0b5f9f4ec79a/bip-PC.md)),
+[PAIRCOMMIT](https://github.com/bitcoin/bips/blob/master/bip-0442.mediawiki)),
 allow for even more sophisticated DLC operations in addition to simplification and cost reduction of
 transferability:
 
@@ -77,10 +77,10 @@ DLCs. ([CAT](/extra/CAT) / [TXHASH](/proposals/txhash) / [CCV](/proposals/matt))
 - **Position Splitting**: Participants can divide their DLC position into smaller pieces, each
 backed by a proportional amount of the original collateral. ([CAT](/extra/CAT) /
 [CCV](/proposals/matt) +
-[PAIRCOMMIT](https://github.com/bitcoin/bips/blob/018d28c967b3f2b747ecb4e5a85d0b5f9f4ec79a/bip-PC.md))
+[PAIRCOMMIT](https://github.com/bitcoin/bips/blob/master/bip-0442.mediawiki))
 - **Collateral Management**: Enables committing to rules for adding or adjusting collateral.
 ([CAT](/extra/CAT) / [CCV](/proposals/matt) +
-[PAIRCOMMIT](https://github.com/bitcoin/bips/blob/018d28c967b3f2b747ecb4e5a85d0b5f9f4ec79a/bip-PC.md))
+[PAIRCOMMIT](https://github.com/bitcoin/bips/blob/master/bip-0442.mediawiki))
 
 ## Trade-offs
 

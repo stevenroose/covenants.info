@@ -10,6 +10,10 @@ toc = true
 +++
 
 
+> **Note:** BIP 345 (OP\_VAULT) was withdrawn on May 8, 2025, superseded by BIP 443
+> (OP\_CHECKCONTRACTVERIFY). See the [CCV/MATT proposal](/proposals/matt/) for the current
+> approach to vaults.
+
 ## Introduction
 
 This proposal proposes two new tapscript opcodes that add consensus support for a specialized
@@ -23,8 +27,8 @@ This proposal is explicitly aimed at enabling the [vaults](/use-cases/vaults) us
 
 ## Specification
 
-This proposal is being specified as
-[BIP-345](https://github.com/bitcoin/bips/pull/1421).
+This proposal was specified as
+[BIP 345](https://github.com/bitcoin/bips/blob/master/bip-0345.mediawiki).
 
 A [draft implementation](https://github.com/bitcoin-inquisition/bitcoin/pull/21) has been made for
 Bitcoin Inquisition.
